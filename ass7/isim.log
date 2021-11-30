@@ -1,0 +1,219 @@
+ISim log file
+Running: C:\Users\vinit\Desktop\Acads\Sem5\COALAB\Assignment_7\KGP_RISC_19CS10065\test_bench_KGP_RISC_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/vinit/Desktop/Acads/Sem5/COALAB/Assignment_7/KGP_RISC_19CS10065/test_bench_KGP_RISC_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 4000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module test_bench_KGP_RISC.uut.IM.icache.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module test_bench_KGP_RISC.uut.DM.d_cache.inst.\native_mem_mapped_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+program counter | time =  0 clka = 0, pc=         x           , instr = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+program counter | time =  0 clka = 0, pc=         x           , instr = 00000000000000000000000000000000 
+Finished circuit initialization process.
+program counter | time =  1000 clka = 0, pc=         x           , instr = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+program counter | time =  20000 clka = 1, pc=         x           , instr = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+program counter | time =  20000 clka = 1, pc=         0           , instr = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+program counter | time =  21000 clka = 1, pc=         0           , instr = 01000000000000010000000000000000 
+read info | time =  32000 clka = 1, reg  0 =          0   |reg  1 =          x
+program counter | time =  40000 clka = 0, pc=         0           , instr = 01000000000000010000000000000000 
+program counter | time =  60000 clka = 1, pc=         0           , instr = 01000000000000010000000000000000 
+program counter | time =  70000 clka = 1, pc=         0           , instr = 01000000000000010000000000000000 
+read info | time =  72000 clka = 1, reg  0 =          0   |reg  1 =         25
+program counter | time =  80000 clka = 0, pc=         0           , instr = 01000000000000010000000000000000 
+program counter | time =  100000 clka = 1, pc=         0           , instr = 01000000000000010000000000000000 
+program counter | time =  100000 clka = 1, pc=         4           , instr = 01000000000000010000000000000000 
+program counter | time =  101000 clka = 1, pc=         4           , instr = 01000000000000100000000000000100 
+read info | time =  112000 clka = 1, reg  0 =          0   |reg  2 =          x
+program counter | time =  120000 clka = 0, pc=         4           , instr = 01000000000000100000000000000100 
+program counter | time =  140000 clka = 1, pc=         4           , instr = 01000000000000100000000000000100 
+program counter | time =  140000 clka = 1, pc=         8           , instr = 01000000000000100000000000000100 
+program counter | time =  141000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+read info | time =  152000 clka = 1, reg  3 =          x   |reg  0 =          0
+program counter | time =  160000 clka = 0, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  180000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  180000 clka = 1, pc=        12           , instr = 00000000011000000000000000000010 
+program counter | time =  181000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+read info | time =  192000 clka = 1, reg  3 =          0   |reg  1 =         25
+program counter | time =  200000 clka = 0, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  220000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  220000 clka = 1, pc=        16           , instr = 00000000011000010000000000000001 
+program counter | time =  221000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+read info | time =  232000 clka = 1, reg  4 =          x   |reg  0 =          0
+program counter | time =  240000 clka = 0, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  260000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  260000 clka = 1, pc=        20           , instr = 00000000100000000000000000000010 
+program counter | time =  261000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+read info | time =  272000 clka = 1, reg  4 =          0   |reg  2 =         10
+program counter | time =  280000 clka = 0, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  300000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  300000 clka = 1, pc=        24           , instr = 00000000100000100000000000000010 
+program counter | time =  301000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+read info | time =  312000 clka = 1, reg  3 =         25   |reg  4 =        -10
+program counter | time =  320000 clka = 0, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  340000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  340000 clka = 1, pc=        28           , instr = 00000000011001000000000000000001 
+program counter | time =  341000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+read info | time =  352000 clka = 1, reg  3 =         15   |reg  0 =          0
+program counter | time =  360000 clka = 0, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  380000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  380000 clka = 1, pc=        32           , instr = 11011000011000000000000000111000 
+program counter | time =  381000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+read info | time =  392000 clka = 1, reg  3 =         15   |reg  0 =          0
+program counter | time =  400000 clka = 0, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  420000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  420000 clka = 1, pc=        36           , instr = 11010100011000000000000000110000 
+program counter | time =  421000 clka = 1, pc=        36           , instr = 00000000001000000000000000000010 
+read info | time =  432000 clka = 1, reg  1 =         25   |reg  0 =          0
+program counter | time =  440000 clka = 0, pc=        36           , instr = 00000000001000000000000000000010 
+program counter | time =  460000 clka = 1, pc=        36           , instr = 00000000001000000000000000000010 
+program counter | time =  460000 clka = 1, pc=        40           , instr = 00000000001000000000000000000010 
+program counter | time =  461000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  470000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+read info | time =  472000 clka = 1, reg  1 =          0   |reg  3 =         15
+program counter | time =  480000 clka = 0, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  500000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  500000 clka = 1, pc=        44           , instr = 00000000001000110000000000000001 
+program counter | time =  501000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  510000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+read info | time =  512000 clka = 1, reg  0 =          0   |reg  0 =          0
+program counter | time =  520000 clka = 0, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  540000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  540000 clka = 1, pc=         8           , instr = 11000000000000000000000000001000 
+program counter | time =  541000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+read info | time =  552000 clka = 1, reg  3 =         15   |reg  0 =          0
+program counter | time =  560000 clka = 0, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  580000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  580000 clka = 1, pc=        12           , instr = 00000000011000000000000000000010 
+program counter | time =  581000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+read info | time =  592000 clka = 1, reg  3 =          0   |reg  1 =         15
+program counter | time =  600000 clka = 0, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  620000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  620000 clka = 1, pc=        16           , instr = 00000000011000010000000000000001 
+program counter | time =  621000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+read info | time =  632000 clka = 1, reg  4 =        -10   |reg  0 =          0
+program counter | time =  640000 clka = 0, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  660000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  660000 clka = 1, pc=        20           , instr = 00000000100000000000000000000010 
+program counter | time =  661000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+read info | time =  672000 clka = 1, reg  4 =          0   |reg  2 =         10
+program counter | time =  680000 clka = 0, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  700000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  700000 clka = 1, pc=        24           , instr = 00000000100000100000000000000010 
+program counter | time =  701000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+read info | time =  712000 clka = 1, reg  3 =         15   |reg  4 =        -10
+program counter | time =  720000 clka = 0, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  740000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  740000 clka = 1, pc=        28           , instr = 00000000011001000000000000000001 
+program counter | time =  741000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+read info | time =  752000 clka = 1, reg  3 =          5   |reg  0 =          0
+program counter | time =  760000 clka = 0, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  780000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  780000 clka = 1, pc=        32           , instr = 11011000011000000000000000111000 
+program counter | time =  781000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+read info | time =  792000 clka = 1, reg  3 =          5   |reg  0 =          0
+program counter | time =  800000 clka = 0, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  820000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  820000 clka = 1, pc=        36           , instr = 11010100011000000000000000110000 
+program counter | time =  821000 clka = 1, pc=        36           , instr = 00000000001000000000000000000010 
+read info | time =  832000 clka = 1, reg  1 =         15   |reg  0 =          0
+program counter | time =  840000 clka = 0, pc=        36           , instr = 00000000001000000000000000000010 
+program counter | time =  860000 clka = 1, pc=        36           , instr = 00000000001000000000000000000010 
+program counter | time =  860000 clka = 1, pc=        40           , instr = 00000000001000000000000000000010 
+program counter | time =  861000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  870000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+read info | time =  872000 clka = 1, reg  1 =          0   |reg  3 =          5
+program counter | time =  880000 clka = 0, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  900000 clka = 1, pc=        40           , instr = 00000000001000110000000000000001 
+program counter | time =  900000 clka = 1, pc=        44           , instr = 00000000001000110000000000000001 
+program counter | time =  901000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  910000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+read info | time =  912000 clka = 1, reg  0 =          0   |reg  0 =          0
+program counter | time =  920000 clka = 0, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  940000 clka = 1, pc=        44           , instr = 11000000000000000000000000001000 
+program counter | time =  940000 clka = 1, pc=         8           , instr = 11000000000000000000000000001000 
+program counter | time =  941000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+read info | time =  952000 clka = 1, reg  3 =          5   |reg  0 =          0
+program counter | time =  960000 clka = 0, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  980000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  980000 clka = 1, pc=        12           , instr = 00000000011000000000000000000010 
+program counter | time =  981000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+read info | time =  992000 clka = 1, reg  3 =          0   |reg  1 =          5
+program counter | time =  1000000 clka = 0, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  1020000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  1020000 clka = 1, pc=        16           , instr = 00000000011000010000000000000001 
+program counter | time =  1021000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+read info | time =  1032000 clka = 1, reg  4 =        -10   |reg  0 =          0
+program counter | time =  1040000 clka = 0, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  1060000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  1060000 clka = 1, pc=        20           , instr = 00000000100000000000000000000010 
+program counter | time =  1061000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+read info | time =  1072000 clka = 1, reg  4 =          0   |reg  2 =         10
+program counter | time =  1080000 clka = 0, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  1100000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  1100000 clka = 1, pc=        24           , instr = 00000000100000100000000000000010 
+program counter | time =  1101000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+read info | time =  1112000 clka = 1, reg  3 =          5   |reg  4 =        -10
+program counter | time =  1120000 clka = 0, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  1140000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  1140000 clka = 1, pc=        28           , instr = 00000000011001000000000000000001 
+program counter | time =  1141000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+read info | time =  1152000 clka = 1, reg  3 =         -5   |reg  0 =          0
+program counter | time =  1160000 clka = 0, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  1180000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  1180000 clka = 1, pc=        32           , instr = 11011000011000000000000000111000 
+program counter | time =  1181000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+read info | time =  1192000 clka = 1, reg  3 =         -5   |reg  0 =          0
+program counter | time =  1200000 clka = 0, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  1220000 clka = 1, pc=        32           , instr = 11010100011000000000000000110000 
+program counter | time =  1220000 clka = 1, pc=        48           , instr = 11010100011000000000000000110000 
+program counter | time =  1221000 clka = 1, pc=        48           , instr = 00000000010000110000000000000010 
+read info | time =  1232000 clka = 1, reg  2 =         10   |reg  3 =         -5
+program counter | time =  1240000 clka = 0, pc=        48           , instr = 00000000010000110000000000000010 
+program counter | time =  1260000 clka = 1, pc=        48           , instr = 00000000010000110000000000000010 
+program counter | time =  1260000 clka = 1, pc=        52           , instr = 00000000010000110000000000000010 
+program counter | time =  1261000 clka = 1, pc=        52           , instr = 11000000000000000000000000001000 
+read info | time =  1272000 clka = 1, reg  0 =          0   |reg  0 =          0
+program counter | time =  1280000 clka = 0, pc=        52           , instr = 11000000000000000000000000001000 
+program counter | time =  1300000 clka = 1, pc=        52           , instr = 11000000000000000000000000001000 
+program counter | time =  1300000 clka = 1, pc=         8           , instr = 11000000000000000000000000001000 
+program counter | time =  1301000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+read info | time =  1312000 clka = 1, reg  3 =         -5   |reg  0 =          0
+program counter | time =  1320000 clka = 0, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  1340000 clka = 1, pc=         8           , instr = 00000000011000000000000000000010 
+program counter | time =  1340000 clka = 1, pc=        12           , instr = 00000000011000000000000000000010 
+program counter | time =  1341000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+read info | time =  1352000 clka = 1, reg  3 =          0   |reg  1 =          5
+program counter | time =  1360000 clka = 0, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  1380000 clka = 1, pc=        12           , instr = 00000000011000010000000000000001 
+program counter | time =  1380000 clka = 1, pc=        16           , instr = 00000000011000010000000000000001 
+program counter | time =  1381000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+read info | time =  1392000 clka = 1, reg  4 =        -10   |reg  0 =          0
+program counter | time =  1400000 clka = 0, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  1420000 clka = 1, pc=        16           , instr = 00000000100000000000000000000010 
+program counter | time =  1420000 clka = 1, pc=        20           , instr = 00000000100000000000000000000010 
+program counter | time =  1421000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+read info | time =  1432000 clka = 1, reg  4 =          0   |reg  2 =          5
+program counter | time =  1440000 clka = 0, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  1460000 clka = 1, pc=        20           , instr = 00000000100000100000000000000010 
+program counter | time =  1460000 clka = 1, pc=        24           , instr = 00000000100000100000000000000010 
+program counter | time =  1461000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+read info | time =  1472000 clka = 1, reg  3 =          5   |reg  4 =         -5
+program counter | time =  1480000 clka = 0, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  1500000 clka = 1, pc=        24           , instr = 00000000011001000000000000000001 
+program counter | time =  1500000 clka = 1, pc=        28           , instr = 00000000011001000000000000000001 
+program counter | time =  1501000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+read info | time =  1512000 clka = 1, reg  3 =          0   |reg  0 =          0
+program counter | time =  1520000 clka = 0, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  1540000 clka = 1, pc=        28           , instr = 11011000011000000000000000111000 
+program counter | time =  1540000 clka = 1, pc=        56           , instr = 11011000011000000000000000111000 
+The gcd is           5 
+Stopped at time : 1540 ns : File "C:/Users/vinit/Desktop/Acads/Sem5/COALAB/Assignment_7/KGP_RISC_19CS10065/KGP_RISC_Processor.v" Line 129
